@@ -1,5 +1,5 @@
-# uk-infrastructure-resilience
-## Monitoring the UKs infrastructure - prevent failures, estimate demand and supply, schedule maintenance
+# Monitoring the UKs infrastructure
+##prevent failures, estimate demand and supply, schedule maintenance
 
 This project will monitor the UKs rail system, electricity grid, and hospital infrastructure.
 
