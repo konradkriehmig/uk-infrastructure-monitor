@@ -1,0 +1,8 @@
+data/raw/
+*.shp
+*.dbf
+*.shx
+*.prj
+__pycache__/
+*.pyc
+.env
