@@ -9,3 +9,6 @@ Main Points:
 <img width="2188" height="1485" alt="image" src="https://github.com/user-attachments/assets/9fc1d298-84ec-4d2d-beef-ec2be6becc87" />
 
 APIs: carbon intensity data from UK gov
+
+The following video helped me immensely creating it:
+https://www.youtube.com/watch?v=bPGnvfyMuxE
