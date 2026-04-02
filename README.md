@@ -12,3 +12,6 @@ APIs: carbon intensity data from UK gov
 
 The following video helped me immensely creating it:
 https://www.youtube.com/watch?v=bPGnvfyMuxE
+
+How to contribute:
+Think about how to prevent failures, estimate demand and supply, schedule maintenance
