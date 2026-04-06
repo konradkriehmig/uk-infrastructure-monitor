@@ -19,5 +19,5 @@ Think about how to prevent failures, estimate demand and supply, schedule mainte
 Further problems to be solved:
 1) there is currently a supply and demand gap in the uk energy market with inefficiency leading to
 2) higher consumer prices, like in 2022 where household electricity bills painfully increased by 54% in a single quarter.
-3) although demand and supply matching is already automated on a 24h basis, there is a lack of intelligence layer to offset disturbances and make predictions within hours.
+3) although demand and supply matching is already automated on a 24h basis, there is a lack of intelligence layer to predict supply within hours.
 4) Palantir's AIP intelligence layer would be able to further remove inefficiency and decrease consumer bills
