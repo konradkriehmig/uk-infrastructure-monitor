@@ -22,7 +22,7 @@ Further problems to be solved:
 3) although demand and supply matching is already automated on a 24h basis, there is a lack of intelligence layer to predict supply within hours.
 4) Palantir's AIP intelligence layer would be able to further remove inefficiency and decrease consumer bills
 
-Pitch for this project: 
-When global gas prices spike — as they have again in 2026 — British electricity bills spike with them. That's because every time the grid needs more power, a gas plant fires up to meet the last slice of demand, and that plant sets the price for everyone.
-Thousands of commercial and industrial assets — cold stores, factories, data centres — can temporarily reduce their load for minutes at a time, so that expensive marginal plant never gets called. No consumer notices. No lights go off. Bills just don't climb as high.
-This project builds the coordination layer on Foundry: a single operational picture of Britain's flexible energy capacity, with the intelligence to dispatch it precisely when and where it's needed.
+[WIP] Pitch for this project: 
+When demand rises on Britain's grid, a gas plant fires up to cover the gap — and that plant sets the price everyone pays. Bills spike with gas prices, as they have again in 2026.
+Thousands of cold stores, factories, and data centres can drop their load for minutes at a time so that plant never gets called. No one notices. Bills just don't climb as high. This already happens through the Demand Flexibility Service — but it's fragmented across 20+ separate markets with no shared view of what's available or where.
+This project is that shared view. One platform on Foundry showing every flexible asset on the grid, ready to be dispatched when and where it's needed. Operators coordinate through AI agents — one watching grid conditions, one managing asset availability, one handling dispatch — each scoped to a specific job, supervised by humans, and orchestrated together. Less gas burned, lower bills, today.
