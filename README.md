@@ -15,14 +15,3 @@ https://www.youtube.com/watch?v=bPGnvfyMuxE
 
 How to contribute:
 Think about how to prevent failures, estimate demand and supply, schedule maintenance
-
-Further problems to be solved:
-1) there is currently a supply and demand gap in the uk energy market with inefficiency leading to
-2) higher consumer prices, like in 2022 where household electricity bills painfully increased by 54% in a single quarter.
-3) although demand and supply matching is already automated on a 24h basis, there is a lack of intelligence layer to predict supply within hours.
-4) Palantir's AIP intelligence layer would be able to further remove inefficiency and decrease consumer bills
-
-[WIP] Pitch for this project: 
-gas sets the elctricity price in the uk most of the time because of market mechanics. currently gas prices are volatile and uk citizens are faced with deftier electricity bills. currently gas is used at unpredictable prices to close the supply and demand gap. there is also another way to narrow the gap, by using technology to orchestrate thousands of different institutions to lower their electricity consumption in a way such that they dont even notice (eg lowering cooling temperature in a data center by one degree for ten minutes, but at scale!) and institutions will even profit from participation through market dynamics. palantir helps here with its aip platform to orchestrate that and ultimately bring down electricity bills for uk citizens now and in the future.
-
-(Claude summary: When demand rises on Britain's grid, a gas plant fires up to cover the gap — and that plant sets the price everyone pays. Bills spike with gas prices, as they have again in 2026. Thousands of cold stores, factories, and data centres can drop their load for minutes at a time so that plant never gets called. No one notices. Bills just don't climb as high. This already happens through the Demand Flexibility Service — but it's fragmented across 20+ separate markets with no shared view of what's available or where. This project is that shared view. One platform on Foundry showing every flexible asset on the grid, ready to be dispatched when and where it's needed. Operators coordinate through AI agents — one watching grid conditions, one managing asset availability, one handling dispatch — each scoped to a specific job, supervised by humans, and orchestrated together. Less gas burned, lower bills, today.)
