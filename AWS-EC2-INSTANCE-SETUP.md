@@ -10,12 +10,8 @@ On the VM:
 ```
 sudo apt update
 ```
-- download python package installer
-```
-sudo apt install python3-pip
-```
 - install python libraries: websockets and requests
 ```
-pip3 install websockets requests
+sudo apt install -y python3-websockets python3-requests
 ```
 
