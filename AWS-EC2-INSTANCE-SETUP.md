@@ -25,3 +25,6 @@ nano app.py
 ```
 python3 app.py
 ```
+- Validate in Foundry that the connection has been established:
+<img width="2088" height="397" alt="image" src="https://github.com/user-attachments/assets/44265eac-44ea-4001-b204-d702942d2812" />
+
