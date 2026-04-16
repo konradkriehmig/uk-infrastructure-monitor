@@ -29,3 +29,9 @@ python3 app.py
 - Validate in Foundry that the connection has been established:
 <img width="2088" height="397" alt="image" src="https://github.com/user-attachments/assets/44265eac-44ea-4001-b204-d702942d2812" />
 
+- paste app.py from this folder and run it on the VM
+- make sure you see live data (5s refresh) in Foundry
+- let process run in the background after you disconnect from the VM (to be replaced by systemd)
+```
+nohup python3 app.py > stream.log 2>&1 &
+```
