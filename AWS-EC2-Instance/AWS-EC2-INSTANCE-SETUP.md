@@ -63,3 +63,15 @@ StandardError=append:/home/ubuntu/stream.log
 [Install]
 WantedBy=multi-user.target
 ```
+- update systemd to include the new service
+```
+sudo systemctl daemon-reload
+```
+- set it to run if the VM has to reboot
+```
+sudo systemctl enable binance-stream
+```
+- start the stream and leave it on
+```
+sudo systemctl status binance-stream
+```
