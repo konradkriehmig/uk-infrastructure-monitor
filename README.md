@@ -17,3 +17,23 @@ https://www.youtube.com/watch?v=bPGnvfyMuxE
 
 How to contribute:
 Think about how to prevent failures, estimate demand and supply, schedule maintenance
+
+# Part 2: Demand and Supply mapping to Cryptocurrency
+
+lets think about our objects we want to create for a moment:
+
+1) Electricity demand: Bitcoin portfolio
+
+2) Electricity supply: Altcoin portfolio
+
+   a. nuclear supply - cannot be bought, should be more stable
+
+   b. solar supply - cannot be bought, volatile
+
+   c. import supply - can be bought, volatile
+
+   d. gas supply - can be bought, most volatile
+
+   b. solar supply - cannot be bought, volatile
+
+   e. hydro supply - cannot be bought, stable
