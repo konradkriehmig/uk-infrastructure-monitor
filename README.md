@@ -1,6 +1,8 @@
 # Monitoring the UKs infrastructure
 I built a monitor for the UK government in Palantir Foundry/AIP to monitor its energy infrastructure.
 
+(Built in Palantir Foundry/AIP free-tier ans AWS free-tier, no setup costs, used CoPilot for getting the grid lines into workshop)
+
 Main Points:
 - I used publicly available data to simulate a real world scenario
 - You can interact with the Ontology using the workshop, action include reporting an incident and changing the status of a plant
