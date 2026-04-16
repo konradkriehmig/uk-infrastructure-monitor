@@ -31,7 +31,35 @@ python3 app.py
 
 - paste app.py from this folder and run it on the VM
 - make sure you see live data (5s refresh) in Foundry
-- let process run in the background after you disconnect from the VM (to be replaced by systemd)
+  
+Let process continue after you disconnect from the VM, using systemd:
+- create .env file in home:
 ```
-nohup python3 app.py > stream.log 2>&1 &
+FOUNDRY_TOKEN=your-token-here
+DATASET_RID=your-dataset-rid
+FOUNDRY_URL=your-foundry-url
+```
+- create systemd service file in the system directory
+```
+sudo nano /etc/systemd/system/binance-stream.service
+```
+- copy the following content
+```
+[Unit]
+Description=Binance to Foundry Streaming Agent
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu
+EnvironmentFile=/home/ubuntu/.env
+ExecStart=/usr/bin/python3 /home/ubuntu/app.py
+Restart=always
+RestartSec=5
+StandardOutput=append:/home/ubuntu/stream.log
+StandardError=append:/home/ubuntu/stream.log
+
+[Install]
+WantedBy=multi-user.target
 ```
