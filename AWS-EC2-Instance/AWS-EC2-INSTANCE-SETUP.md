@@ -76,3 +76,5 @@ sudo systemctl enable binance-stream
 sudo systemctl status binance-stream
 ```
 - verify the streaming dataset in Foundry to see if it is working
+
+You can just close the connection and keep it running. This setup consumes less than 5€ of AWS credits per month from my observation.
