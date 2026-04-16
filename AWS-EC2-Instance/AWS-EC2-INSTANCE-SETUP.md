@@ -75,3 +75,4 @@ sudo systemctl enable binance-stream
 ```
 sudo systemctl status binance-stream
 ```
+- verify the streaming dataset in Foundry to see if it is working
