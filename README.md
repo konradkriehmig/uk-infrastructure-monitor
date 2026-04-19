@@ -14,7 +14,7 @@ Further, energy plants are producting electricity, you can see all the energy pl
 <img width="2018" height="1443" alt="image" src="https://github.com/user-attachments/assets/002fe226-a69e-4108-8662-b17691c6d49b" />
 
 Next step: Automation
-a) Deterministic: let algorithm press buttons based on what gets closed to frequency
-b) Non-deterministic: AIP logic executes trades based on prediction models like Monte-Carlo, adding resources so that the frequency is most likely to stay stable as long as possible
-c) Adding budget constraints, always take what is cheapest and most stable
+- a) Deterministic: let algorithm press buttons based on what gets closed to frequency
+- b) Non-deterministic: AIP logic executes trades based on prediction models like Monte-Carlo, adding resources so that the frequency is most likely to stay stable as long as possible
+- c) Adding budget constraints, always take what is cheapest and most stable
 
