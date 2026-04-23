@@ -19,7 +19,7 @@ Further, energy plants are producting electricity, you can see all the energy pl
 
 Tech Stack:
 - Palantir Foundry/AIP Dev-Tier: Data Connections, Data Pipelines and Code Transforms, Ontology, Python/Typescript functions, Workshop, AIP Logic, AIP Agent
-- AWS EC2 instance as streaming agent, setup guide:
+- AWS EC2 instance as streaming agent, setup guide: AWS-EC2-Instance/AWS-EC2-INSTANCE-SETUP.md
 
 
 Next step: Automation
