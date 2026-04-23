@@ -22,8 +22,9 @@ Further, energy plants are producting electricity, you can see all the energy pl
 - AWS EC2 instance as streaming agent, setup guide: AWS-EC2-Instance/AWS-EC2-INSTANCE-SETUP.md
 
 
-#### Next step: Automation
+#### Next step/options to contributute: Automation
 - a) Deterministic: let algorithm press buttons based on what gets closed to frequency
 - b) Non-deterministic: AIP logic executes trades based on prediction models like Monte-Carlo, adding resources so that the frequency is most likely to stay stable as long as possible
 - c) Adding budget constraints, always take what is cheapest and most stable
 
+Sharing .zip file on request.
