@@ -1,6 +1,7 @@
 # I made an operational dashboard where you can trade paper crypto based on live data, representing the UK's electricity market with real geo data
 
-<img width="2213" height="1495" alt="image" src="https://github.com/user-attachments/assets/5cf43ec0-c048-452b-a4c3-2316b2b85b0e" />
+<img width="2495" height="1486" alt="image" src="https://github.com/user-attachments/assets/92b02761-abc7-4dc5-97d7-7146bd7796d1" />
+
 
 You have a supply (Altcoin Portfolio) and demand (Bitcoin portfolio). The frequency (50 Hz, needs to be stable) is the spread between the two. You need to keep your Bitcoin portfolio value close to your Altcoin portfolio value by pressing the buttons in the middle. 
 
