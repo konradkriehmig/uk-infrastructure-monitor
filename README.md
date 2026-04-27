@@ -1,4 +1,4 @@
-# I made an operational dashboard where you can trade paper crypto based on live data, representing the UK's electricity market with real geo data
+# Simulation of an perational dashboard monitoring the UK's electricity market with real geo data
 
 <img width="2471" height="1487" alt="image" src="https://github.com/user-attachments/assets/176bfa43-6da0-48fb-ba0c-a868e8b3acdb" />
 
