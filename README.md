@@ -23,8 +23,9 @@ Further, energy plants are producting electricity, you can see all the energy pl
 
 
 #### Next step/options to contributute: Automation
-- a) Deterministic: let algorithm press buttons based on what gets closed to frequency
-- b) Non-deterministic: AIP logic executes trades based on prediction models like Monte-Carlo, adding resources so that the frequency is most likely to stay stable as long as possible
-- c) Adding budget constraints, always take what is cheapest and most stable
+- AIP logic executes trades based on prediction models like Monte-Carlo, adding resources so that the frequency is most likely to stay stable as long as possible
+- Adding budget constraints, always take what is cheapest and most stable
+- getting real electricity transmission data (paid)
 
+https://www.youtube.com/watch?v=iNONhBTszeA
 Sharing .zip file on request.
