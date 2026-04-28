@@ -1,4 +1,4 @@
-Uses NESO grid topology and Carbon Intensity API data, with a high-frequency price feed simulating real-time supply variation. Local GSPs can report incidents, which propagate through the ontology and trigger a simulated supply drop the operator must respond to.
+An operational monitor for the UK electricity grid, built on Palantir Foundry. Uses NESO grid topology and Carbon Intensity API data, with a high-frequency price feed simulating real-time supply variation. Local GSPs can report incidents, which propagate through the ontology and trigger a simulated supply drop the operator must respond to.
 
 [Note: the live streaming component currently uses Crypto price data as a stand-in, since it's the highest-frequency free public feed available. The NESO grid topology and energy plant data are real; the per-second supply variation is driven by price movement mapped onto generation values.]
 
