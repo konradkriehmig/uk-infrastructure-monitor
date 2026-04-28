@@ -1,4 +1,4 @@
-An operational monitor for the UK electricity grid, built on Palantir Foundry. Ingests live NESO and Carbon Intensity API data and models the high-voltage network as an ontology. Local GSPs can report incidents, which propagate through the ontology and trigger a simulated supply drop the operator must respond to.
+Uses NESO grid topology and Carbon Intensity API data, with a high-frequency price feed simulating real-time supply variation. Local GSPs can report incidents, which propagate through the ontology and trigger a simulated supply drop the operator must respond to.
 
 [Note: the live streaming component currently uses Crypto price data as a stand-in, since it's the highest-frequency free public feed available. The NESO grid topology and energy plant data are real; the per-second supply variation is driven by BTC price movement mapped onto generation values.]
 
@@ -18,9 +18,9 @@ Further, energy plants are producting electricity, you can see all the energy pl
 - Palantir Foundry/AIP Dev-Tier: Data Connections, Data Pipelines and Code Transforms, Ontology (objects, links, actions), Python/Typescript functions, Automate, Workshop, AIP Logic, AIP Agent
 - AWS EC2 instance as streaming agent, setup guide: [ AWS-EC2-Instance/AWS-EC2-INSTANCE-SETUP.md](https://github.com/konradkriehmig/uk-infrastructure-monitor/tree/main/AWS-EC2-Instance)
 
-#### Next step/options to contribute:
-- AIP logic dispatches energy based on prediction models like Monte-Carlo, adding resources so that the frequency is most likely to stay stable as long as possible
+#### Next steps:
+- AIP Logic dispatches energy based on prediction models like Monte-Carlo, adding resources so that the frequency is most likely to stay stable as long as possible
 - Adding budget constraints, always take what is cheapest and most stable
-- getting real electricity transmission data (paid)
+- Replace streaming pipeline source with live transmission data from a paid feed
 
 Demo walkthrough: https://www.youtube.com/watch?v=iNONhBTszeA
