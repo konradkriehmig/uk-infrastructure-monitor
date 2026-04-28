@@ -25,4 +25,4 @@ The monitor lets user control electricity supply by pressing buttons that will t
 - Adding budget constraints, always take what is cheapest and most stable
 - Replace streaming pipeline source with live transmission data from a paid feed
 
-
+Demo video: https://www.youtube.com/watch?v=iNONhBTszeA
