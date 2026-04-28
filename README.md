@@ -22,5 +22,3 @@ Further, energy plants are producting electricity, you can see all the energy pl
 - getting real electricity transmission data (paid)
 
 https://www.youtube.com/watch?v=iNONhBTszeA
-
-Sharing .zip file on request.
