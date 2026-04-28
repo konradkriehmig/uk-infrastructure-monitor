@@ -1,6 +1,6 @@
 Uses NESO grid topology and Carbon Intensity API data, with a high-frequency price feed simulating real-time supply variation. Local GSPs can report incidents, which propagate through the ontology and trigger a simulated supply drop the operator must respond to.
 
-[Note: the live streaming component currently uses Crypto price data as a stand-in, since it's the highest-frequency free public feed available. The NESO grid topology and energy plant data are real; the per-second supply variation is driven by BTC price movement mapped onto generation values.]
+[Note: the live streaming component currently uses Crypto price data as a stand-in, since it's the highest-frequency free public feed available. The NESO grid topology and energy plant data are real; the per-second supply variation is driven by price movement mapped onto generation values.]
 
 <img width="2402" height="1489" alt="image" src="https://github.com/user-attachments/assets/0a6a9b80-3c6d-473b-bc67-a76d7d8d689a" />
 
@@ -10,7 +10,7 @@ The map shows the whole high-voltage grid system of the UK (based on real data f
 
 <img width="2389" height="1484" alt="image" src="https://github.com/user-attachments/assets/105ac40c-cc21-4ce8-8d82-90b52da30d1a" />
 
-Further, energy plants are producting electricity, you can see all the energy plants in the UK on the map (real publicly available data). This helps you understand where the grid is transporting electricity from and you can also see that for example most hydro and wind energy comes from the North, while Solar mainly comes from the South.
+Further, energy plants are producing electricity, you can see all the energy plants in the UK on the map (real publicly available data). This helps you understand where the grid is transporting electricity from and you can also see that for example most hydro and wind energy comes from the North, while Solar mainly comes from the South.
 
 <img width="2399" height="1484" alt="image" src="https://github.com/user-attachments/assets/1a548a2a-3dfa-4f24-9da4-50527c82f4fb" />
 
