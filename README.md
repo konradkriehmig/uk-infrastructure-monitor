@@ -1,10 +1,12 @@
-# Simulation of an operational dashboard monitoring the UK's electricity market with real geo data
+An operational monitor for the UK electricity grid, built on Palantir Foundry. Ingests live NESO and Carbon Intensity API data and models the high-voltage network as an ontology. Local GSPs can report incidents, which propagate through the ontology and trigger a simulated supply drop the operator must respond to.
+
+[Note: the live streaming component currently uses Crypto price data as a stand-in, since it's the highest-frequency free public feed available. The NESO grid topology and energy plant data are real; the per-second supply variation is driven by BTC price movement mapped onto generation values.]
 
 <img width="2402" height="1489" alt="image" src="https://github.com/user-attachments/assets/0a6a9b80-3c6d-473b-bc67-a76d7d8d689a" />
 
-The monitor let's you control electricity supply by pressing buttons that will trigger an action, simulating the request for the production of an electricity source type. I chose the UK for this project because the APIs are very accessible.
+The monitor lets user control electricity supply by pressing buttons that will trigger an action, simulating a request for the production of a specific electricity source type. I chose the UK for this project because the APIs are very accessible.
 
-The map shows the whole high-voltage grid system of the UK (based on real data from NESO). Local GSP operators, which are distinct from the national grid operator, would mark incidents in the system if they occur. Currently, the project simulates a supply drop, whenever a GSP reports and issue. In such a case, it is the grid operator's responsibility to stabilize the frequency to serve electricity demand and reduce physical strain on the grid.
+The map shows the whole high-voltage grid system of the UK (based on real data from NESO). Local GSP operators, which are distinct from the national grid operator, would mark incidents in the system if they occur. Currently, the project simulates a supply drop, whenever a GSP reports an issue. In such a case, it is the grid operator's responsibility to stabilize the frequency to serve electricity demand and reduce physical strain on the grid.
 
 <img width="2389" height="1484" alt="image" src="https://github.com/user-attachments/assets/105ac40c-cc21-4ce8-8d82-90b52da30d1a" />
 
@@ -16,8 +18,8 @@ Further, energy plants are producting electricity, you can see all the energy pl
 - Palantir Foundry/AIP Dev-Tier: Data Connections, Data Pipelines and Code Transforms, Ontology (objects, links, actions), Python/Typescript functions, Automate, Workshop, AIP Logic, AIP Agent
 - AWS EC2 instance as streaming agent, setup guide: [ AWS-EC2-Instance/AWS-EC2-INSTANCE-SETUP.md](https://github.com/konradkriehmig/uk-infrastructure-monitor/tree/main/AWS-EC2-Instance)
 
-#### Next step/options to contributute:
-- AIP logic executes trades based on prediction models like Monte-Carlo, adding resources so that the frequency is most likely to stay stable as long as possible
+#### Next step/options to contribute:
+- AIP logic dispatches energy based on prediction models like Monte-Carlo, adding resources so that the frequency is most likely to stay stable as long as possible
 - Adding budget constraints, always take what is cheapest and most stable
 - getting real electricity transmission data (paid)
 
