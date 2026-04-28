@@ -6,7 +6,7 @@ The map shows the whole high-voltage grid system of the UK (based on real data f
 
 <img width="2399" height="1484" alt="image" src="https://github.com/user-attachments/assets/1a548a2a-3dfa-4f24-9da4-50527c82f4fb" />
 
-Further, energy plants are producing electricity, you can see all the energy plants in the UK on the map (real publicly available data). This helps you understand where the grid is transporting electricity from and you can also see that for example most hydro and wind energy comes from the North, while Solar mainly comes from the South.
+Further, energy plants are producing electricity, you can see all the energy plants in the UK on the map (real publicly available data). This helps you understand where the grid is transporting electricity from and map shows that for example most hydro and wind energy comes from the North, while Solar mainly comes from the South.
 
 <img width="2389" height="1484" alt="image" src="https://github.com/user-attachments/assets/105ac40c-cc21-4ce8-8d82-90b52da30d1a" />
 
