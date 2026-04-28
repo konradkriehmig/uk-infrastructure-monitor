@@ -23,4 +23,4 @@ Further, energy plants are producting electricity, you can see all the energy pl
 - Adding budget constraints, always take what is cheapest and most stable
 - getting real electricity transmission data (paid)
 
-https://www.youtube.com/watch?v=iNONhBTszeA
+Demo walkthrough: https://www.youtube.com/watch?v=iNONhBTszeA
