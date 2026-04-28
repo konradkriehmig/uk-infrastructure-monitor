@@ -4,11 +4,11 @@ An operational monitor for the UK electricity grid, built on Palantir Foundry. U
 
 The map shows the whole high-voltage grid system of the UK (based on real data from NESO). 
 
-<img width="2389" height="1484" alt="image" src="https://github.com/user-attachments/assets/105ac40c-cc21-4ce8-8d82-90b52da30d1a" />
+<img width="2399" height="1484" alt="image" src="https://github.com/user-attachments/assets/1a548a2a-3dfa-4f24-9da4-50527c82f4fb" />
 
 Further, energy plants are producing electricity, you can see all the energy plants in the UK on the map (real publicly available data). This helps you understand where the grid is transporting electricity from and you can also see that for example most hydro and wind energy comes from the North, while Solar mainly comes from the South.
 
-<img width="2399" height="1484" alt="image" src="https://github.com/user-attachments/assets/1a548a2a-3dfa-4f24-9da4-50527c82f4fb" />
+<img width="2389" height="1484" alt="image" src="https://github.com/user-attachments/assets/105ac40c-cc21-4ce8-8d82-90b52da30d1a" />
 
 Local GSP operators, which are distinct from the national grid operator, would mark incidents in the system if they occur. Currently, the project simulates a supply drop, whenever a GSP reports an issue. In such a case, it is the grid operator's responsibility to stabilize the frequency to serve electricity demand and reduce physical strain on the grid.
 
