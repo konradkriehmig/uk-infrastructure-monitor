@@ -8,7 +8,7 @@ Also you can see the whole grid system of the UK (based on real data from NESO) 
 
 I chose the Uk because the APIs are very accessible.
 
-<img width="2401" height="1495" alt="image" src="https://github.com/user-attachments/assets/c7347108-65a2-4f27-a695-d58d4b0efecf" />
+<img width="2397" height="1488" alt="image" src="https://github.com/user-attachments/assets/be0ed06c-5621-4193-81d0-1f08c36d6551" />
 
 Further, energy plants are producting electricity, you can see all the energy plants in the UK on the map (real publicly available data). This helps you understand where the grid is transporting electricity from and you can also see that for example most hydro and wind energy comes from the North, while Solar mainly comes from the South.
 
