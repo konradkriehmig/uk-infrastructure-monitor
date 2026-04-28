@@ -16,7 +16,7 @@ Further, energy plants are producting electricity, you can see all the energy pl
 
 #### Tech Stack:
 - Palantir Foundry/AIP Dev-Tier: Data Connections, Data Pipelines and Code Transforms, Ontology (objects, links, actions), Python/Typescript functions, Automate, Workshop, AIP Logic, AIP Agent
-- AWS EC2 instance as streaming agent, setup guide: AWS-EC2-Instance/AWS-EC2-INSTANCE-SETUP.md
+- AWS EC2 instance as streaming agent, setup guide:[ AWS-EC2-Instance/AWS-EC2-INSTANCE-SETUP.md](https://github.com/konradkriehmig/uk-infrastructure-monitor/tree/main/AWS-EC2-Instance)
 
 #### Next step/options to contributute:
 - AIP logic executes trades based on prediction models like Monte-Carlo, adding resources so that the frequency is most likely to stay stable as long as possible
