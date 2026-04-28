@@ -2,11 +2,9 @@
 
 <img width="2402" height="1489" alt="image" src="https://github.com/user-attachments/assets/0a6a9b80-3c6d-473b-bc67-a76d7d8d689a" />
 
-You have a supply (Altcoin Portfolio) and demand (Bitcoin portfolio). The frequency (50 Hz, needs to be stable) is the spread between the two. You need to keep your Bitcoin portfolio value close to your Altcoin portfolio value by pressing the buttons in the middle. 
+The monitor let's you control electricity supply by pressing buttons that will trigger an action, simulating the request for the production of an electricity source type. I chose the UK for this project because the APIs are very accessible.
 
-Also you can see the whole grid system of the UK (based on real data from NESO) and create/resolve incidents affecting certain grid supply points:
-
-I chose the Uk because the APIs are very accessible.
+The map shows the whole high-voltage grid system of the UK (based on real data from NESO). Local GSP operators, which are distinct from the national grid operator, would mark incidents in the system if they occur. Currently, the project simulates a supply drop, whenever a GSP reports and issue. In such a case, it is the grid operator's responsibility to stabilize the frequency to serve electricity demand and reduce physical strain on the grid.
 
 <img width="2389" height="1484" alt="image" src="https://github.com/user-attachments/assets/105ac40c-cc21-4ce8-8d82-90b52da30d1a" />
 
