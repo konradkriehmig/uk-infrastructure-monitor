@@ -13,7 +13,7 @@ async function increaseDOGE(client: Client): Promise<OntologyEdit[]> {
     throw new UserFacingError("Dogecoin position not found.");
   }
 
-  // Parse current position and add x
+  // Parse current position and add x 
   const currentPosition = Number(doge.position ?? "0");
   if (isNaN(currentPosition)) {
     throw new UserFacingError(
