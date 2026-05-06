@@ -24,5 +24,3 @@ The monitor lets user control electricity supply by pressing buttons that will t
 - AIP Logic dispatches energy based on prediction models like Monte-Carlo, adding resources so that the frequency is most likely to stay stable as long as possible
 - Adding budget constraints, always take what is cheapest and most stable
 - Replace streaming pipeline source with live transmission data from a paid feed
-
-Demo video: https://www.youtube.com/watch?v=iNONhBTszeA
