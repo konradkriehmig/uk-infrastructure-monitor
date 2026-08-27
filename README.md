@@ -21,6 +21,6 @@ The monitor lets user control electricity supply by pressing buttons that will t
 - AWS EC2 instance as streaming agent, setup guide: [ AWS-EC2-Instance/AWS-EC2-INSTANCE-SETUP.md](https://github.com/konradkriehmig/uk-infrastructure-monitor/tree/main/AWS-EC2-Instance)
 
 #### Next steps:
-- AIP Logic dispatches energy based on prediction models like Monte-Carlo, adding resources so that the frequency is most likely to stay stable as long as possible
+- AIP Logic dispatches energy based on prediction models, adding resources so that the frequency is most likely to stay stable as long as possible
 - Adding budget constraints, always take what is cheapest and most stable
 - Replace streaming pipeline source with live transmission data from a paid feed
